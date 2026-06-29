@@ -1,0 +1,10 @@
+{
+  "name": "ztpki-api",
+  "version": "1.0.0",
+  "private": true,
+  "description": "ZTPKI (Venafi Zero Touch PKI / HydrantID ACM) HAWK-signing REST proxy",
+  "main": "server.cjs",
+  "scripts": {
+    "start": "node server.cjs"
+  }
+}
