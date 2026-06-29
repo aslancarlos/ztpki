@@ -52,6 +52,11 @@ Serve `web/dist/` behind any web server and run `api/server.cjs` behind a
 - The proxy enforces an **SSRF guard** (rejects private/internal hosts) and a
   **path allow-list** (`/certificates`, `/accounts`, `/organizations`).
 
+## Demo CA certificate
+
+`ZTPKIDemoRSAICA1.pem` is a ZTPKI demo issuing CA (intermediate) certificate
+kept here for reference / trust-chain testing against the demo ZTPKI tenant.
+
 ## License
 
 [Apache 2.0](./LICENSE).
